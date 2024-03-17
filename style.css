@@ -1,0 +1,144 @@
+/*
+div {
+    border:1px;
+    border-color:blanchedalmond; 
+    border-style: solid;
+    padding: 20px;
+    margin: 30px;
+}
+*/
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(190, 169, 141);
+  }
+  
+  li {
+    float: center;
+  }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: white;
+  }
+  
+  .active {
+    background-color: rgb(141, 115, 81);
+  }
+
+header {
+    background-image: url(white.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.esittely {
+    background-image: url(workspace.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cv {
+    background-image: url(beach.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio {
+    background-image: url(plant.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.yhteystiedot {
+    background-image: url(pen.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(141, 115, 81);
+    padding: 50px;
+    margin: 0px;
+}
+
+section p {
+    width: 90;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 650px) {
+    
+    li {
+        float: left
+    }
+
+    section {
+        width: 75%;
+  }
+
+  header h1 {
+    font-size: 70px;
+    padding: 200px 10px 200px 10px;}
+
+    .row {
+        width: 75%;
+        margin: auto;
+}
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+   section {
+        width: 55%;
+  }
+
+   header h1 {
+    font-size: 70px;}
+
+    .row {
+        width: 95%;
+        margin: auto;}
+
+    .column {
+        float: left;
+        width: 45%;
+        padding-right: 5%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  }
+
+
